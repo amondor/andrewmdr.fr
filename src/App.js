@@ -12,16 +12,16 @@ function App() {
       
       <div className='md:flex-1 md:mr-10 ' >
         <h1 className="font-pt-serif text-5xl font-bold mb-7 md:mt-6">
-      Hi, I'm <span className='text-purple-500 '>Andrew Mondor </span>👋🏽
+      Hi, I'm <span className='text-sky-500 '>Andrew Mondor </span>👋🏽
       
     </h1>
     <p className="font-pt-serif font-normal mb-7 text-xl">
-       I'm a French <span className='text-purple-500'>web developer </span>and I work with ReactJS and VueJS. ⚛️<br/>
+       I'm a French <span className='text-sky-500'>web developer </span>and I work with ReactJS and VueJS. ⚛️<br/>
        I'm also working with Laravel or Symfony frameworks 🐘.
       </p>
       <div className="font-montserrat">
         <a href="https://www.malt.fr/profile/andrewmondor" target="blank">
-        <button className="bg-purple-500 px-6 py-4 rounded-lg   text-white mr-2 mb-2">
+        <button className="bg-sky-500 px-6 py-4 rounded-lg   text-white mr-2 mb-2">
           Hire me
         </button>
         </a>
