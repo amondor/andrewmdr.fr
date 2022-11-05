@@ -5,20 +5,20 @@ import { FaEnvelope } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaHamburger } from "react-icons/fa";
 import { FaBriefcase } from "react-icons/fa";
-
+import  Logo  from "../images/logo-andrewmondor.png";
 export default function Navbar(){
 const [showLinks, setShowLinks] = useState(false);
 const handleShowLinks = () =>{
   setShowLinks(!showLinks)
   console.log(showLinks)
 }
-return <div className="flex items-center justify-center">
-  <nav className="max-w-7xl flex justify-between py-6 w-full lg:px-48 md:px-12 px-4 content-center z-10 text-xl  ">
+return <div className="flex items-center  justify-center">
+  <nav className=" flex justify-between py-6 w-full lg:px-48 md:px-12 px-4 content-center z-10 text-xl  ">
     <div className="flex items-center">
     <ul className="font-montserrat items-center hidden md:flex md:text-xl">
-      <a href="/">🏠</a>
-      <li className="growing-underline mx-3 ">
-      <a href="https://github.com/amondor" target="blank">Code</a></li>
+      <a href="/">
+      <img src={Logo}   width={100} alt="andrew-mondor"  />
+      </a>
     </ul>
     </div>
     {/* <ul className="font-montserrat items-center hidden md:flex md:text-xl">

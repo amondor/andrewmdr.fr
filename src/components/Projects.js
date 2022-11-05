@@ -18,7 +18,8 @@ export default function Projects(){
                     <div class="flex items-center ">
                         <p class="text-md mt-2 text-sky-500 opacity-80 ">2022</p>
                         </div></div><p class=" text-md mt-3 text-gray-700 sm:mt-4">
-                            Corporate websy.cleaningcleaning company.  Co Corporate website for a cleaning company.or a cleaning company.
+                            Corporate websy.cleaningcleaning company.  
+                            Co Corporate website for a cleaning company.or a cleaning company.
                             </p>                       
                         </a>
                     <div>

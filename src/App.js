@@ -9,17 +9,17 @@ import Projects from './components/Projects';
 function App() {
   return (
     <>
+   
+    <div className='align-center mx-auto flex max-w-7xl flex-col  px-8  profile   '>
     <Navbar />
-    <div className='flex items-center justify-center'>
-    <div className='max-w-7xl  pt-4 md:mt-0  flex flex-col md:text-left md:flex-row md:justify-between lg:px-48 md:px-12 px-4 bg-secondary'>
+    <div className='max-w-7xl  min-h-screen place-items-center  flex flex-col md:text-left md:flex-row md:justify-between lg:px-48 md:px-12 px-4 bg-secondary'>
       <div className='md:flex-1 md:mr-10 ' >
-        <h1 className="font-pt-serif text-5xl font-bold mb-7 md:mt-6">
-      Hi, I'm <span className='text-sky-500 '>Andrew Mondor </span>👋🏽
-      
+        <h1 className="font-pt-serif text-4xl font-bold mb-7 md:mt-6">
+        Andrew Mondor 👋🏽 
+          <span className='text-sky-500 text-5xl '>Web developer</span> 
     </h1>
     <p className="font-pt-serif font-normal mb-7 text-xl">
-       I'm a French <span className='text-sky-500'>web developer </span>and I work with ReactJS and VueJS. ⚛️<br/>
-       I'm also working with Laravel or Symfony frameworks 🐘.
+       Javascript 🤖 ReactJS ⚛️ VueJS ❤️<br/> Laravel, Symfony 🐘.   
       </p>
       <div className="font-montserrat">
         <a href="https://www.malt.fr/profile/andrewmondor" target="blank">
@@ -39,17 +39,15 @@ function App() {
       </div>
     </div>
     <div className="flex justify-around md:block md:mt-0 md:flex-1">
-    <div className="relative">
+    {/* <div className="relative">
         <img src={Highlight1} alt="" className="absolute -top-16 -left-10" />
-      </div>
+      </div> */}
       <img src={memoji} alt="Memoji-andrew" />
       <div className="relative">
-        <img src={Highlight2} alt="" className="absolute -bottom-10 -right-6" />
+        {/* <img src={Highlight2} alt="" className="absolute -bottom-10 -right-6" /> */}
       </div>
     </div>
-
     </div>
-    
     </div>
     {/* <Projects/> */}
     
