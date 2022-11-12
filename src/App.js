@@ -12,14 +12,14 @@ function App() {
    
     <div className='align-center mx-auto flex max-w-7xl flex-col  px-8  profile   '>
     <Navbar />
-    <div className='max-w-7xl  min-h-screen place-items-center  flex flex-col md:text-left md:flex-row md:justify-between lg:px-48 md:px-12 px-4 bg-secondary'>
+    <div className='max-w-7xl   place-items-center  flex flex-col md:text-left md:flex-row md:justify-between lg:px-48 md:px-12 px-4 bg-secondary'>
       <div className='md:flex-1 md:mr-10 ' >
-        <h1 className="font-pt-serif text-4xl font-bold mb-7 md:mt-6">
-        Andrew Mondor 👋🏽 
-          <span className='text-sky-500 text-5xl '>Web developer</span> 
+        <h1 className="font-pt-serif text-3xl font-bold mb-7 md:mt-6">
+        Andrew Mondor 👋🏽 <br/>
+          <span className='text-sky-500 text-3xl '>Web developer</span> 
     </h1>
     <p className="font-pt-serif font-normal mb-7 text-xl">
-       Javascript 🤖 ReactJS ⚛️ VueJS ❤️<br/> Laravel, Symfony 🐘.   
+       Javascript 🤖 ReactJS ⚛️ VueJS ❤️ <br/> Laravel, Symfony 🐘.   
       </p>
       <div className="font-montserrat">
         <a href="https://www.malt.fr/profile/andrewmondor" target="blank">
