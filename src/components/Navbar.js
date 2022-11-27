@@ -13,12 +13,28 @@ const handleShowLinks = () =>{
   console.log(showLinks)
 }
 return <div className="flex items-center  justify-center">
-  <nav className=" flex justify-between py-6 w-full lg:px-48 md:px-12 px-4 content-center z-10 text-xl  ">
+  <nav className=" flex justify-between py-6 w-full lg:px-48 md:px-12 px-4 pb-16 content-center z-10 text-xl  ">
     <div className="flex items-center">
-    <ul className="font-montserrat items-center hidden md:flex md:text-xl">
+    <ul className="font-montserrat items-center hidden md:flex md:text-xl gap-8">
+      
+      
       <a href="/">
-      <img src={Logo}   width={100} alt="andrew-mondor"  />
+      Home
       </a>
+     
+     
+      <a href="https://www.linkedin.com/in/andrew-mondor/">
+      About
+      </a>
+      
+      <a href="https://www.malt.fr/profile/andrewmondor">
+      Projects
+      </a>
+     
+      <a href="https://github.com/amondor">
+      Code 
+      </a>
+      
     </ul>
     </div>
     {/* <ul className="font-montserrat items-center hidden md:flex md:text-xl">
@@ -36,28 +52,14 @@ return <div className="flex items-center  justify-center">
     </ul>  */}
     <div className="font-montserrat hidden md:block">
    <ul className="items-center hidden md:flex">
-    <li className="mx-3">
-      <a href="https://github.com/amondor"
-       target="blank">
-     <FaGithub/>
-      </a>
-    </li>
-    <li className="mx-3">
+   
+    <li className="mx-3 ">
       <a href="https://www.malt.fr/profile/andrewmondor" target="blank">
      <FaBriefcase/>
       </a>
     </li>
-    <li className="mx-3">
-      <a href="https://twitter.com/Anwmdr" target="blank">
-     <FaTwitter/>
-      </a>
-    </li>
    
-    <li className="mx-3">
-      <a href="mailto:andrew.mondor@gmail.com">
-     < FaEnvelope/>
-      </a>
-    </li>
+    
    </ul>    
     </div>
 
@@ -77,7 +79,7 @@ return <div className="flex items-center  justify-center">
      
     </ul>
   </div> 
-  <div id="showMenu" className="md:hidden" onClick={handleShowLinks}>
+  <div id="showMenu" className="md:hidden " onClick={handleShowLinks}>
       <FaHamburger />
     </div>
     

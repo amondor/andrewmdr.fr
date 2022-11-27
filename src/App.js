@@ -1,5 +1,5 @@
 import './App.css';
-import memoji from './images/memoji.png'
+import profile from './images/andrewmondor.jpg'
 import Highlight1 from './images/Highlight1.svg'
 import Highlight2 from './images/Highlight2.svg'
 import Navbar from './components/Navbar';
@@ -12,24 +12,26 @@ function App() {
    
     <div className='align-center mx-auto flex max-w-7xl flex-col  px-8  profile   '>
     <Navbar />
-    <div className='max-w-7xl   place-items-center  flex flex-col md:text-left md:flex-row md:justify-between lg:px-48 md:px-12 px-4 bg-secondary'>
+    <div className='max-w-7xl    place-items-center  flex flex-col md:text-left md:flex-row md:justify-between lg:px-48 md:px-12 px-4 bg-secondary'>
       <div className='md:flex-1 md:mr-10 ' >
-        <h1 className="font-pt-serif text-3xl font-bold mb-7 md:mt-6">
-        Andrew Mondor 👋🏽 <br/>
-          <span className='text-sky-500 text-3xl '>Web developer</span> 
-    </h1>
-    <p className="font-pt-serif font-normal mb-7 text-xl">
-       Javascript 🤖 ReactJS ⚛️ VueJS ❤️ <br/> Laravel, Symfony 🐘.   
+        <h1 className="font-pt-serif font-bold  text-3xl md:text-5xl mb-7 md:mt-6">
+        Andrew Mondor  <br/>
+          
+    </h1><h2 className='ext-gray-700 mb-4 '>
+    Freelance Fullstack <span className='font-semibold text-sky-600 '> Web Developer</span> </h2> 
+    <p className="font-pt-serif font-normal  t mb-8">
+      Freelancer providing services for programming and design content needs. <br/>
+      My playground is React JS and NodeJS. Join me down below !   
       </p>
       <div className="font-montserrat">
         <a href="https://www.malt.fr/profile/andrewmondor" target="blank">
-        <button className="bg-sky-500 px-6 py-4 rounded-lg   text-white mr-2 mb-2">
+        <button className="bg-zinc-600 px-6 py-4 rounded-lg   text-white mr-2 mb-2">
           Hire me
         </button>
         </a>
 
         <a href={Moncv} target="blank">
-        <button className="bg-sky-500 px-6 py-4   bg-transparent hover:bg-sky-500 text-blue-500 hover:text-white border border-sky-500 hover:border-transparent px-6 py-4 rounded-lg text-white mr-2 mb-2" download="Resume - Andrew mondor">
+        <button className="bg-sky-600 px-6 py-4   bg-transparent hover:bg-zin-900 text-white hover:text-white hover:border-transparent px-6 py-4 rounded-lg text-white mr-2 mb-2" download="Resume - Andrew mondor">
           CV
         </button>
         </a>
@@ -38,14 +40,14 @@ function App() {
         </button></a> */}
       </div>
     </div>
-    <div className="flex justify-around md:block md:mt-0 md:flex-1">
-    {/* <div className="relative">
-        <img src={Highlight1} alt="" className="absolute -top-16 -left-10" />
-      </div> */}
-      <img src={memoji} alt="Memoji-andrew" />
-      <div className="relative">
-        {/* <img src={Highlight2} alt="" className="absolute -bottom-10 -right-6" /> */}
-      </div>
+    <div className=" flex justify-center items-center">
+        
+      
+          <img src={profile} alt="Memoji-andrew"  width='146' 
+          className='rounded-xl filter grayscale justify-center '/>
+          
+       
+    
     </div>
     </div>
     </div>
