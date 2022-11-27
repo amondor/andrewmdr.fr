@@ -31,7 +31,7 @@ function App() {
         </a>
 
         <a href={Moncv} target="blank">
-        <button className="bg-sky-600 px-6 py-4   bg-transparent hover:bg-zin-900 text-white hover:text-white hover:border-transparent px-6 py-4 rounded-lg text-white mr-2 mb-2" download="Resume - Andrew mondor">
+        <button className="bg-sky-600 px-6 py-4  hover:bg-zinc-900 text-white hover:text-white hover:border-transparent px-6 py-4 rounded-lg text-white mr-2 mb-2" download="Resume - Andrew mondor">
           CV
         </button>
         </a>
