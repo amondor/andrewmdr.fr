@@ -1,34 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap'); 
 body {
-    background-color: #F9FAFB;
+    background-color: #FFF;
+   
+    font-family: 'Inter', sans-serif;
 }
-/* .profile img{
-    width: 300px;
-} */
 
-@media screen and (max-width:765px) {
-    .navbar_links{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
-        right: -100vh;
-        bottom: 0;
-        height: 100vh;
-        padding: 2rem;
-        visibility: hidden;
+h1{
+    font-size:52px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color : #001737;
+    font-weight: 800;
+}
+.head-title{
+    font-size:48px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color : #001737;
+    font-weight: 800;
+}
+.title {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 24px;
+    line-height: 41px;
+    font-weight: 400;
+}
 
-
-    }
-    .show-nav  {
-        width: 100vw;
-        right: 0;
-        visibility: visible;
-        display: block;
-        padding: 1.5;
-        font-size: 5vw;
-        
-        color :white !important;
-    }
+.icons{
+    font-size: 26px;
     
 }
-
+.icons :hover{
+    color:#021A39;
+}
